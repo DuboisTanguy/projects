@@ -1,0 +1,5 @@
+#Informations
+
+Ce projet a avant tout pout but de m'aider quand je code.
+C'est une application codée en Java permettant de sauvegarder (dans la RAM) son presse-papier pour le récuperer d'un simple clic plus tard.
+Il ne fonctionne que pour les contenus textuels et possède des emplacements infinis.
