@@ -1,0 +1,16 @@
+name: Rush
+main: com.wearedevelopers.rush.misc.Main
+version: 1.0
+description: Rush plugin
+authors: [Lik0rn,BlackTerminal]
+
+commands:
+  rush:
+    description: Modifier les parametres du rush.
+    usage: /rush [maxheight, minheight, deathheight] [arg2]
+    permission: permission.rush
+
+permissions:
+  permission.rush:
+    description: permet d'utiliser la commande rush
+    default: op
