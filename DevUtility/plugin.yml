@@ -1,0 +1,27 @@
+name: DevUtility
+main: com.bluesky.plugin.DevUtility
+version: 1.0
+description: Utilitaire pour developpeurs
+author: Lik0rn
+
+commands:
+  devutil:
+    description: Give the dev utility item.
+    usage: /devutil
+    permission: bluesky.devutil
+    aliases:
+    
+  multiinv:
+    description: Open an inventory where you can open a crafting table, a furnace....
+    usage: /multiinv
+    permission: bluesky.multiinv
+    aliases:  
+
+permissions:
+  bluesky.devutil:
+    description: permet d'utiliser la commande devutil.
+    default: op
+    
+  bluesky.multiinv:
+    description: permet d'utiliser la commande multiinv.
+    default: op

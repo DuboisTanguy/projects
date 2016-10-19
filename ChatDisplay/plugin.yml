@@ -1,0 +1,23 @@
+name: ChatDisplay
+main: com.bluesky.chat.Main
+version: 1.0
+description: Plugin utilitaire pour chat
+author: Lik0rn
+
+commands:
+  cd:
+    description: Commande principale
+    usage: /cd
+    permission: bluesky.cd
+  Billy:
+    description: billy
+    usage: /billy
+    permission: bluesky.billy
+    
+permissions:
+  bluesky.cd:
+    description: permet d'utiliser la commande cd.
+    default: true
+  bluesky.billy:
+    description: billy
+    defaul: true

@@ -1,0 +1,18 @@
+name: HdvPlugin
+main: com.bluesky.plugin.HdvPlugin
+version: 1.0
+description: Plugin HDV
+author: Lik0rn
+depend: [Vault]
+
+commands:
+  hdv:
+    description: permet d utiliser l hdv.
+    usage: /hdv [create/open]
+    permission: bluesky.hdv
+    aliases:
+
+permissions:
+  bluesky.hdv:
+    description: permet d'utiliser la commande hdv.
+    default: true
