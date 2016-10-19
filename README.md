@@ -1,2 +1,2 @@
-# projects
-My main projects
+# Projets
+Mes projets principaux
