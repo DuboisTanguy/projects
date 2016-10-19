@@ -1,0 +1,37 @@
+name: GodBattle
+main: com.bluesky.plugin.MainClass
+version: 1.0
+description: PvP minigame plugin
+authors: [Lik0rn, BlackTerminal]
+
+commands:
+  godbattle:
+    description: Lance le mini jeu GodBattle.
+    usage: /godbattle
+    permission: bluesky.godbattle
+    aliases: 
+  healer:
+    description: cree un healer.
+    usage: /healer
+    permission: bluesky.healer
+    aliases:
+  test:
+    description: cree un healer.
+    usage: /test
+    permission: bluesky.test
+    aliases:
+
+  jumppad:
+    description: cree un jumppad.
+    usage: /jumppad
+
+permissions:
+  bluesky.godbattle:
+    description: permet l utilisation de la commande godbattle.
+    default: true
+  bluesky.healer:
+    description: permet l utilisation de la commande godbattle.
+    default: true
+  bluesky.test:
+    description: permet l utilisation de la commande godbattle.
+    default: op

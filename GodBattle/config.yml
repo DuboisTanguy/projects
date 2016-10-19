@@ -1,0 +1,94 @@
+GodsItems:
+- ==: org.bukkit.inventory.ItemStack
+  type: GOLD_SWORD
+  damage: 0
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: 'Zeus'
+    lore:
+    - 'Deviens Zeus !'
+- ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 0
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: 'Hades'
+    lore:
+    - 'Deviens Hades !'
+- ==: org.bukkit.inventory.ItemStack
+  type: WOOD_SWORD
+  damage: 0
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: 'Appolon'
+    lore:
+    - 'Deviens Appolon!'
+- ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_CHESTPLATE
+  damage: 0
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: 'Ares'
+    lore:
+    - 'Deviens Ares !'
+- ==: org.bukkit.inventory.ItemStack
+  type: FEATHER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: 'Hermes'
+    lore:
+    - 'Deviens Hermes !'
+- ==: org.bukkit.inventory.ItemStack
+  type: ARROW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: 'Eole'
+    lore:
+    - 'Deviens Eole !'
+- ==: org.bukkit.inventory.ItemStack
+  type: WATER_BUCKET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: 'Poseidon'
+    lore:
+    - 'Deviens Poseidon !'
+- ==: org.bukkit.inventory.ItemStack
+  type: SAPLING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: 'Pan'
+    lore:
+    - 'Deviens Pan !'
+- ==: org.bukkit.inventory.ItemStack
+  type: POTION
+  meta:
+    ==: ItemMeta
+    meta-type: POTION
+    display-name: 'Dionysos'
+    lore:
+    - 'Deviens Dionysos !'
+    potion-type: minecraft:luck
+- ==: org.bukkit.inventory.ItemStack
+  type: IRON_INGOT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: 'Hephaïstos'
+    lore:
+    - 'Deviens Hephaïstos !'
+- ==: org.bukkit.inventory.ItemStack
+  type: BOW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: 'Artemis'
+    lore:
+    - 'Deviens Artemis !'
