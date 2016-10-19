@@ -1,0 +1,9 @@
+======MODE D'EMPLOI======
+
+ - Lancer le jeu :
+	- Ouvrez le dossier contenant le fichier .jar du jeu. Assurez vous que le fichier dico.txt existe et est placé dans le même dossier.
+	- Double-cliquez sur le fichier .jar (si ça ne marche pas, essayez de mettre à jour votre JRE). Le jeu est lancé.
+	
+ - Editer le dictionnaire :
+	- Ouvrez le fichier dico.txt avec un éditeur de texte (ex : Notepad, Notepad++...)
+	- Les mots doivent être séparés par des espaces
