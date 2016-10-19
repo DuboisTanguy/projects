@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="TRONCS" tilewidth="32" tileheight="32" tilecount="18" columns="6">
+  <image source="tiles/trunk.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="19" name="GRASS" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="tiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="37" name="FEUILLES" tilewidth="32" tileheight="32" tilecount="42" columns="6">
+  <image source="tiles/treetop.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="79" name="BARREL" tilewidth="32" tileheight="32" tilecount="8" columns="4">
+  <image source="tiles/barrel.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="87" name="logic" tilewidth="32" tileheight="32" tilecount="25" columns="5">
+  <image source="tiles/logic.png" width="160" height="160"/>
+ </tileset>
+ <layer name="BACKGROUND" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEoSvy/WsOlkPBVVNVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf8BN/dNuUCcAAA=
+  </data>
+ </layer>
+ <layer name="PLAN1" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YTW6DMBAGUNIu0i7SHq2L3v8uZVMJRVjE8d84vCdZYoOJBufz4GWJ4bKOt3W8Tzp/yXO295Rc13Rdx8c6PivP22v+kuds7ym5rum2jq91fFeet9f8Jc/Z3lNyTR3P5E/r3D2zHvnD41L58zPyR51YKq9+R/6oAHJ7x1q9przal1uLWrXTL+3LrUWt2uX0V/aU9nLy6ux7Sg+j8qrXGdLMetZI77Bv+w561kjvsG/7DtRoPO/gtdiXY4m0L1sbsfIu0tog1toAmJVeIxa9Rix6jTTZEYvsiEV2AAAAwLER50vOtNJGnC8500obcb7kTIsa5GwscjYWOQsAEJdvmVhm/pa5LK+3np79ljmqQ486XZe511NNR3XoUafb4tv431Ed1GlOPXLt1faYlnrkmj3mcT1yTXYCAPf0z7Hon2PRPzMDOR6LHM/Tev3K8TzWbyzWb1pOdtgn28vJDjnTXk52yBkAAIA5ON+IxflGLM43YF72t1jsb7HY39gjN+srqancrK+kprPl5gz/59lqWsL/OZYzrT0A4Dz+AHCMOq9AnAAA
+  </data>
+ </layer>
+ <layer name="PLAN2" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Yy2rDMBSEYUOeI8u0i7aLpO//blUhUEhtJNnnMrL+DwQhyzP2SNZtWZa3st7LunX+hr2Psj7L+trxG/buZT3K+t7xG/boHy2t/XN5Lvjq6Z/Ly4K9I311tnx6Z+HR9ZbnpdFz6Z2Fx1mT89Kf3ll4zI7zlRa+77RE9hXvYp3XjK4r//Eu1nnNaC0Pzg51XjNaywN5yCNOy55DHnFa9pyoPDizte05UXlwZmsXkQlntnbsIVrIQ8/MmaieNWbNRPWsMWseymeN7ExUuyNTZiaq3ZEtKxPl7siW3V34j0z0kIme60IuishED5noIRM9ZKKHfT7X1v2SZy7caW2r3S955MKd1rbW+yXLTLjTsjH73qLas7NmotyzM2ai3rOz95cqcgEAIIbqt8yslL9lWpztedr7LVObQ9ScRn+erNTmEDGn328b9W/jKLU5MKcxRfTa2fYYTxG9xh7TLqLX6E4AAPCK87MWzs9aOD9jBPS4Fnq8j/fzS4/34fnVwvO7rac72Cf99XQHPeOvpzvoGQAAAAAYA/cbWrjf0ML9BjAu9jct7G9a2N+wht60d2Sm9Ka9IzMdrTdHeJ9Hm+kRvM9aZnr2AAAAkOMHUPdHkkCcAAA=
+  </data>
+ </layer>
+ <layer name="logic" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RQQkAMBADwXN5/p3UQ+ljCzMQA9mdmX087vmvRY8WPVr0aNGjRY8WPVr0aNGjRY8WPVr0aNGjRY8WPVr0aNGjRY8WPVr0aNGjRY8WPVr0aNGjRQ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfnYA65mn10CcAAA=
+  </data>
+ </layer>
+</map>
