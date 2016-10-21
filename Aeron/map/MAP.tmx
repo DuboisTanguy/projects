@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="11">
  <tileset firstgid="1" name="TRONCS" tilewidth="32" tileheight="32" tilecount="18" columns="6">
   <image source="tiles/trunk.png" width="192" height="96"/>
  </tileset>
@@ -15,9 +15,12 @@
  <tileset firstgid="87" name="logic" tilewidth="32" tileheight="32" tilecount="25" columns="5">
   <image source="tiles/logic.png" width="160" height="160"/>
  </tileset>
+ <tileset firstgid="112" name="GEMS" tilewidth="32" tileheight="32" tilecount="6" columns="2">
+  <image source="tiles/gems.png" width="64" height="96"/>
+ </tileset>
  <layer name="BACKGROUND" width="100" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3DAQkAAAwEoSvy/WsOlkPBVVNVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf8BN/dNuUCcAAA=
+   H4sIAAAAAAAAC+3OoQ0AAAgDsD2y/9/kBQwJoqK+TVIAAAAAAAAAAAAAAAAAAOBUHhwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICdAQJt06RAnAAA
   </data>
  </layer>
  <layer name="PLAN1" width="100" height="100">
@@ -27,12 +30,43 @@
  </layer>
  <layer name="PLAN2" width="100" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3Yy2rDMBSEYUOeI8u0i7aLpO//blUhUEhtJNnnMrL+DwQhyzP2SNZtWZa3st7LunX+hr2Psj7L+trxG/buZT3K+t7xG/boHy2t/XN5Lvjq6Z/Ly4K9I311tnx6Z+HR9ZbnpdFz6Z2Fx1mT89Kf3ll4zI7zlRa+77RE9hXvYp3XjK4r//Eu1nnNaC0Pzg51XjNaywN5yCNOy55DHnFa9pyoPDizte05UXlwZmsXkQlntnbsIVrIQ8/MmaieNWbNRPWsMWseymeN7ExUuyNTZiaq3ZEtKxPl7siW3V34j0z0kIme60IuishED5noIRM9ZKKHfT7X1v2SZy7caW2r3S955MKd1rbW+yXLTLjTsjH73qLas7NmotyzM2ai3rOz95cqcgEAIIbqt8yslL9lWpztedr7LVObQ9ScRn+erNTmEDGn328b9W/jKLU5MKcxRfTa2fYYTxG9xh7TLqLX6E4AAPCK87MWzs9aOD9jBPS4Fnq8j/fzS4/34fnVwvO7rac72Cf99XQHPeOvpzvoGQAAAAAYA/cbWrjf0ML9BjAu9jct7G9a2N+wht60d2Sm9Ka9IzMdrTdHeJ9Hm+kRvM9aZnr2AAAAkOMHUPdHkkCcAAA=
+   H4sIAAAAAAAAC+3YQU7DMBAF0Eg9B8vCAlgA978bWVAhVUSuG9v5Lu9JlrKe2H/GPi/L8ryul3WdK79p73Vdb+t6v+Ob9j7W9bmurzu+aU/+ZLk1f04/i75q8ud0tWhvT1492v+prUWPrG85L83+X2pr0WPWNC/9qq1Fj9qZr7K432UZmVfOYtnIGjmLZSNrZHYoUyNoS1/OktSX7Y2snpO0N8jaGwCzMmtkMWtkMWtskx1ZZEcW2QEAAABlR7wvedPadsT7kjetbUe8L3nTogU5m0XOZpGzAAC53GWyzH6XebT9dO9dplSHUXWafT+1UqrDiDo9Le7GF6U6qNOcRuTao/WYnkbkmh5zuxG5JjsBgGvm5yzm5yzmZ2Ygx7PI8Tq9968cr2P/ZrF/t9Vkhz7ZX012yJn+arJDzgAAAMzB+0YW7xtZvG/AvPS3LPpbFv2Nv8jN9vbUVG62t6ems+XmDOd5tpru4Txn+U97DwCAY3wDBM2c50CcAAA=
   </data>
  </layer>
  <layer name="logic" width="100" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAC+3RQQkAMBADwXN5/p3UQ+ljCzMQA9mdmX087vmvRY8WPVr0aNGjRY8WPVr0aNGjRY8WPVr0aNGjRY8WPVr0aNGjRY8WPVr0aNGjRY8WPVr0aNGjRQ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfnYA65mn10CcAAA=
+  </data>
+ </layer>
+ <objectgroup name="triggers" width="100" height="100">
+  <object id="1" name="Tonneau1" type="teleport" x="252" y="326" width="44" height="48">
+   <properties>
+    <property name="dest-x" type="int" value="88"/>
+    <property name="dest-y" type="int" value="194"/>
+   </properties>
+  </object>
+  <object id="4" name="Tonneau2" type="teleport" x="88" y="194" width="42" height="46">
+   <properties>
+    <property name="dest-x" type="int" value="272"/>
+    <property name="dest-y" type="int" value="304"/>
+   </properties>
+  </object>
+  <object id="5" name="Arbre1" type="mapChange" x="872" y="404" width="78" height="60">
+   <properties>
+    <property name="lvlName" value="LEVEL 1"/>
+    <property name="mapName" value="MAP"/>
+    <property name="nbGems" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="8" name="GEM1" type="ressource" x="704" y="608" width="30" height="33">
+   <properties>
+    <property name="calque" value="GEM1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="GEM1" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OAQ0AAAgDoJe2vzE+HSQgAQAAAAAAAOCTaQcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjltU3mQBQJwAAA==
   </data>
  </layer>
 </map>
